@@ -1,5 +1,4 @@
 //BINARY SEARCH PROBLEM
-
 import java.util.Arrays;
 import java.util.Scanner;
 class Solution{
