@@ -35,7 +35,7 @@ class Solution {
 
 
 /*
-class Solution { //
+class Solution { 
     public boolean isPerfectSquare(int num) {
         if(num == 1){
             return true;
