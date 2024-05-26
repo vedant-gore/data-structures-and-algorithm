@@ -49,7 +49,7 @@ class Solution{
             System.out.print(arr[b] + " ");
         }
         
-        Solution s1 = new Solution();
+        firstBadVersion s1 = new firstBadVersion();
         boolean condition = s1.checkIfNexist(arr);
         System.out.println("\n"+condition);
     }
