@@ -1,7 +1,7 @@
 //BINARY SEARCH PROBLEM
-import java.util.Arrays;
+import java.util.Arrays ;
 import java.util.Scanner;
-class Solution{
+class Solution {
     public boolean checkIfNexist(int arr[]){
         Arrays.sort(arr);
         for(int i=0; i<arr.length; i++){
