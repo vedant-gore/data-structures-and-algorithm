@@ -1,5 +1,5 @@
 //ONE POINTER METHOD
-class Solution{
+class Solution {
     public List<Integer> targetIndices(int[] nums, int target){
         Arrays.sort(nums);
         List<Integer> targetindices = new ArrayList<Integer>();
