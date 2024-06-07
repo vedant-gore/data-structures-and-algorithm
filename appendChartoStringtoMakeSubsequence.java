@@ -1,4 +1,4 @@
-class Solution {
+class Solution{
     public int appendCharacters(String s, String t) {
         if(s.contains(t)) return 0;
         int sIndex = 0, sameChars = 0;
