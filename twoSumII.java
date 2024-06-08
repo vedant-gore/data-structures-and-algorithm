@@ -15,3 +15,21 @@ class Solution {
         return indices;
     }
 }
+
+// METHOD 2 - BINARY SEARCH
+class Solution {
+    public int[] twoSum(int[] numbers, int target) {
+        // go step by step
+        // ascending sorted array
+        // 1<=i1<i2<=numbers.length
+        // return i1 & i2 +1 +1 as an array[]
+        int start=0, end=numbers.length-1;
+        while(start<end){
+            int sum=numbers[start]+numbers[end];
+            if(sum==target) return new int[]{start+1, end+1};
+            else if(sum<target) start++;
+            else end--;
+        }
+        return new int[]{1,1};
+    }
+}
