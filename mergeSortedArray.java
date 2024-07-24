@@ -1,4 +1,4 @@
-class Solution {
+class Solution{
     public void mergeSortedArray(int[] nums1, int m, int[] nums2, int n) {
         // Initialize three pointers to track the current index of nums1, nums2, and the merged array
         int pointerForNums1 = m - 1;
