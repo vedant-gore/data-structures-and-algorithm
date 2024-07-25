@@ -1,4 +1,4 @@
-class containsDuplicateForLoopMostEfficient {
+class containsDuplicateForLoopMostEfficient{
     public boolean containsDuplicate(int[] nums) {
 
         for(int i=1; i<nums.length; i++){
