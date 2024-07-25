@@ -44,25 +44,19 @@ class containsDuplicatesMergeSortMethod {
             k++;
         }
 
+        // Count duplicates in the merged array
         int count2 = 1;
-        int duplicateCount = 0;
-
-        for (int y = 1; y < arr.length; y++) {
-            if (arr[i] == arr[i - 1]) {
+        for (int y = l + 1; y <= r; y++) {
+            if (arr[y] == arr[y - 1]) {
                 count2++;
-            } else {
                 if (count2 >= 2) {
-                    duplicateCount++;
+                    return count2;
                 }
+            } else {
                 count2 = 1;
             }
         }
-        // To handle the last element
-        if (count2 >= 2) {
-            duplicateCount++;
-        }
-        return duplicateCount;
-
+        return 0;
     }
 
     public boolean containsDuplicate(int[] nums) {
