@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Solution {
+class validPerfectSquareBinarySearch {
     public boolean isPerfectSquare(int num) {
         if(num == 1){
             return true;
