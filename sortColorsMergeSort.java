@@ -1,6 +1,6 @@
 // METHOD - MERGE SORT
 
-class Solution {
+class sortColorsMergeSort {
     static void mergeSort(int[] arr, int l, int r){
         if(l<r){
             int mid=l+(r-l)/2;
