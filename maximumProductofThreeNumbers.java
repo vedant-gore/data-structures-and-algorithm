@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class maximumProductofThreeNumbers {
     public int maximumProduct(int[] nums) {
         if (nums.length == 3) return nums[0] * nums[1] * nums[2];
         
