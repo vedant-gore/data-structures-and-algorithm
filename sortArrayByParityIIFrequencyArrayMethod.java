@@ -1,4 +1,4 @@
-class sortArrayByParityIIFrequencyArrayMethod {
+class sortArrayByParityIISwapping {
     public int[] sortArrayByParityII(int[] nums) {
         int frequencyArr[] = new int[1001];
 
